@@ -4,6 +4,15 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+.navbar{
+    position:fixed;
+    top: 0;
+    z-index: 1;
+    opacity: 100%;
+    width: 85%;
+
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -32,7 +41,7 @@ nav{
 .logo{
     
     width: 140px;
-    filter: drop-shadow(2px 2px 1px #c55b5b) saturate(500%);
+    filter: drop-shadow(2px 2px 1px #ff0000);
    
 
 }
@@ -57,11 +66,11 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #ff0000;
     position:absolute;
     left: 0;
     bottom: -6px;
-    transition: 0.3s;
+    transition: 0.5s;
 
 }
 nav ul li a:hover::after{
@@ -132,6 +141,7 @@ nav ul li a:hover::after{
 
 }
 
+
 .tab-links.active-link:hover:after{
     width: 100%;
     
@@ -144,7 +154,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-    color: #b54769;
+    color: #ff0000;
     font-size: 30px;
 }
 
